@@ -1,0 +1,53 @@
+Visual Studio SSMS installation and C# notes:
+
+
+
+C:\Program Files\Microsoft SQL Server\150\Setup Bootstrap\Log\20220802_113130
+
+
+
+Server=localhost;Database=master;Trusted_Connection=True;
+
+
+--
+-- run below commmand from command prompt
+-- sqlcmd -S KMS\MSSQLSERVER01 -E
+--
+
+select @@Version
+go
+                                                                                                                                                                                                                                                
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Microsoft SQL Server 2019 (RTM) - 15.0.2000.5 (X64)
+        Sep 24 2019 13:48:23
+        Copyright (C) 2019 Microsoft Corporation
+        Developer Edition (64-bit) on Windows 10 Pro Education 10.0 <X64> (Build 19043: )
+
+
+(1 rows affected)
+1>
+
+
+https://dotnettutorials.net/lesson/ado-net-sqldatareader/
+
+CRUD:
+https://www.google.com/search?q=mvc+crud+in+asp.net+core+ado.net&rlz=1C1OPNX_enIN975IN975&oq=mvc+crud+in+asp.net+core+ado.net&aqs=chrome..69i57.14746j0j7&sourceid=chrome&ie=UTF-8
+
+https://www.c-sharpcorner.com/article/crud-operation-with-asp-net-core-2-1-mvc-using-ado-net/
+
+https://www.sharepointcafe.net/2019/10/asp-net-core-crud-example-using-ado-net.html
+
+https://www.c-sharpcorner.com/UploadFile/0c1bb2/insertupdatedelete-in-Asp-Net-mvc-5-using-ado-net/
+
+
+
+
+https://dzone.com/articles/crud-operation-with-aspnet-core-mvc-using-adonet-a
+
+https://tutorialshelper.com/asp-net-core-3-1-crud-operation-with-ado-net/
+https://www.c-sharpcorner.com/UploadFile/0c1bb2/insertupdatedelete-in-Asp-Net-mvc-5-using-ado-net/
+https://www.aspsnippets.com/questions/462730/Implement-CRUD-operations-using-ADONet-in-ASPNet-Core-MVC/
+https://jayanttripathy.com/how-to-set-connection-string-globally-in-asp-net-core/
+
+
+https://jayanttripathy.com/how-to-set-connection-string-globally-in-asp-net-core/
